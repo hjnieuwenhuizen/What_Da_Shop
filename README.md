@@ -47,12 +47,6 @@ To start dev server for What Da Shop, run:
 npm run start
 ```
 
-You can also use Storybook:
-
-```bash
-npm run storybook
-```
-
 ## Build
 
 To build What Da Shop, run:
