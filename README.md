@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# What Da Shop (Work in Progress)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+What Da Shop" is a sleek ReactJS client for an online store, offering a seamless shopping experience.
 
-## Available Scripts
+## Dependencies
 
-In the project directory, you can run:
+-   Styled Components
+-   Material-UI
+-   Material Icons
+-   Formik
+-   Jest
+-   Tailwind
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To install What Da Shop and its dependencies, run:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+npm install
+```
 
-### `npm test`
+## Test
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Tests for What Da Shop are written using Jest, a delightful JavaScript testing framework. To run tests, use:
 
-### `npm run build`
+```bash
+npm run test
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### AAA (Arrange, Act, Assert) Pattern
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The AAA pattern, also known as Arrange, Act, Assert, is a structured approach to writing unit tests. It helps maintain clarity and readability by dividing each test case into three distinct stages:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Arrange**: Set up the preconditions and inputs for the test. This involves creating objects, initializing variables, and preparing the environment.
 
-### `npm run eject`
+2. **Act**: Perform the actual action or behavior that you're testing. This could involve calling a function, executing a method, or interacting with the system under test.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Assert**: Verify that the behavior of the system under test matches your expectations. Check the output, state changes, or any relevant outcomes to ensure that the system behaves as intended.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+By following the AAA pattern, tests become more understandable, maintainable, and easier to debug. Each stage serves a clear purpose, making it evident what the test is doing and what it's verifying.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To start dev server for What Da Shop, run:
 
-## Learn More
+```bash
+npm run start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can also use Storybook:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm run storybook
+```
 
-### Code Splitting
+## Build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To build What Da Shop, run:
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm run build
+```
